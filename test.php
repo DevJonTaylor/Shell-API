@@ -1,5 +1,8 @@
 <?php
-include_once(__DIR__.'/index.php');
-use \ShellAPI\Factory;
+include_once(__DIR__ . '/index.php');
+use ShellAPI\Factory;
 
-Factory::test();
+
+$log = Factory::getLogger();
+$log->emerg('DANGER TEST IS ALIVE!!!');
+

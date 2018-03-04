@@ -1,0 +1,13 @@
+{
+  "Shortcuts" : {
+    "~~" : ""
+  },
+  "Storage" : {
+    "type" : "json",
+    "path" : "~~/Storage/"
+  },
+  "Logger" : {
+    "Level" : "100",
+    "Path" : "root"
+  }
+}

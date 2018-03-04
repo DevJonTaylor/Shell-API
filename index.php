@@ -8,6 +8,9 @@
  *          and of course share!  <3
  */
 
+$DS = DIRECTORY_SEPARATOR;
+
+include_once __DIR__ . $DS . 'ShellAPI'. $DS . 'vendor' . $DS . 'autoload.php';
 
 function my_autoloader($class)
 {
